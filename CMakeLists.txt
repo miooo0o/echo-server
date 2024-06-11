@@ -11,6 +11,8 @@ set_project_name("echo_server")
 # Add all your source files
 set(SOURCES
         src/main.cpp
+        src/Server/Server.cpp
+        src/Server/Server.h
 )
 
 # Create the executable
